@@ -1,0 +1,25 @@
+{
+  "name": "netzmacht/phpspec-phpcq-plugin",
+  "description": "phpspec plugin for phpcq.",
+  "license": "MIT",
+  "type": "phpcq-plugin",
+  "authors": [
+    {
+      "name": "David Molineus",
+      "email": "david.molineus@netzmacht.de",
+      "homepage": "https://netzmacht.de",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "ext-dom": "*",
+    "ext-pcre": "*",
+    "ext-reflection": "*",
+    "phpcq/plugin-api": "^1.0@dev"
+  },
+  "require-dev": {
+    "phpcq/runner-bootstrap": "^1.0@dev",
+    "phpcq/schema": "^1.0@dev"
+  }
+}
